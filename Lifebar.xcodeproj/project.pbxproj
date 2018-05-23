@@ -22,6 +22,8 @@
 		FF9A1808209751C200A33B4B /* RoundedWhiteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9A1807209751C200A33B4B /* RoundedWhiteButton.swift */; };
 		FF9A180A2097535A00A33B4B /* HelpExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9A18092097535A00A33B4B /* HelpExtensions.swift */; };
 		FF9A180C2097582700A33B4B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9A180B2097582700A33B4B /* HomeViewController.swift */; };
+		FFCFE45820B5C05C00F00E61 /* ShelterGrab.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCFE45720B5C05C00F00E61 /* ShelterGrab.swift */; };
+		FFCFE45E20B5C2DE00F00E61 /* ShelterFetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCFE45D20B5C2DE00F00E61 /* ShelterFetch.swift */; };
 		FFE261EE20B4430D005D1B5B /* Shelter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE261ED20B4430D005D1B5B /* Shelter.swift */; };
 		FFE261F120B44FC6005D1B5B /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE261EF20B44FC6005D1B5B /* PostTableViewCell.swift */; };
 		FFE261F220B44FC6005D1B5B /* PostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFE261F020B44FC6005D1B5B /* PostTableViewCell.xib */; };
@@ -49,6 +51,8 @@
 		FF9A1807209751C200A33B4B /* RoundedWhiteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedWhiteButton.swift; sourceTree = "<group>"; };
 		FF9A18092097535A00A33B4B /* HelpExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpExtensions.swift; sourceTree = "<group>"; };
 		FF9A180B2097582700A33B4B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FFCFE45720B5C05C00F00E61 /* ShelterGrab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelterGrab.swift; sourceTree = "<group>"; };
+		FFCFE45D20B5C2DE00F00E61 /* ShelterFetch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelterFetch.swift; sourceTree = "<group>"; };
 		FFE261ED20B4430D005D1B5B /* Shelter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shelter.swift; sourceTree = "<group>"; };
 		FFE261EF20B44FC6005D1B5B /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
 		FFE261F020B44FC6005D1B5B /* PostTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostTableViewCell.xib; sourceTree = "<group>"; };
@@ -108,16 +112,17 @@
 		FF4CB77E208F370E005259F5 /* Lifebar */ = {
 			isa = PBXGroup;
 			children = (
-				FF4CB77F208F370E005259F5 /* AppDelegate.swift */,
-				FF4CB781208F370E005259F5 /* ViewController.swift */,
-				FF9A180B2097582700A33B4B /* HomeViewController.swift */,
 				FF9A180220974EF500A33B4B /* LISU */,
 				FFE261F320B46300005D1B5B /* Models */,
-				FF4CB783208F370E005259F5 /* Main.storyboard */,
+				FF4CB77F208F370E005259F5 /* AppDelegate.swift */,
+				FF4CB781208F370E005259F5 /* ViewController.swift */,
 				FFE261F820B4DAB7005D1B5B /* NewShelterViewController.swift */,
-				FFE261F620B49316005D1B5B /* MapViewController.swift */,
 				FFE261EF20B44FC6005D1B5B /* PostTableViewCell.swift */,
+				FFCFE45D20B5C2DE00F00E61 /* ShelterFetch.swift */,
 				FFE261F020B44FC6005D1B5B /* PostTableViewCell.xib */,
+				FF9A180B2097582700A33B4B /* HomeViewController.swift */,
+				FFE261F620B49316005D1B5B /* MapViewController.swift */,
+				FF4CB783208F370E005259F5 /* Main.storyboard */,
 				FF4CB788208F372A005259F5 /* LaunchScreen.storyboard */,
 				FF4CB78B208F372A005259F5 /* Info.plist */,
 				FF4CB791208F3C1B005259F5 /* GoogleService-Info.plist */,
@@ -143,6 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				FFE261ED20B4430D005D1B5B /* Shelter.swift */,
+				FFCFE45720B5C05C00F00E61 /* ShelterGrab.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -298,6 +304,7 @@
 				FFE261F120B44FC6005D1B5B /* PostTableViewCell.swift in Sources */,
 				FF9A180A2097535A00A33B4B /* HelpExtensions.swift in Sources */,
 				FF9A18062097516400A33B4B /* SignUpViewController.swift in Sources */,
+				FFCFE45820B5C05C00F00E61 /* ShelterGrab.swift in Sources */,
 				FF4CB794208F6EB6005259F5 /* InitialViewController.swift in Sources */,
 				FF4CB782208F370E005259F5 /* ViewController.swift in Sources */,
 				FFE261F720B49316005D1B5B /* MapViewController.swift in Sources */,
@@ -307,6 +314,7 @@
 				FFE261EE20B4430D005D1B5B /* Shelter.swift in Sources */,
 				FFE261F920B4DAB7005D1B5B /* NewShelterViewController.swift in Sources */,
 				FF9A180120974B3100A33B4B /* MenuViewController.swift in Sources */,
+				FFCFE45E20B5C2DE00F00E61 /* ShelterFetch.swift in Sources */,
 				FF9A1808209751C200A33B4B /* RoundedWhiteButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
